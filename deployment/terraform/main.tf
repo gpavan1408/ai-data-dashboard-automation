@@ -6,7 +6,7 @@ provider "aws" {
 # This block defines the S3 bucket we created earlier.
 # Make sure the bucket name is the same unique name you used before.
 resource "aws_s3_bucket" "dashboard_bucket" {
-  bucket = "gpavan1408-ai-dashboard-bucket-2025"
+  bucket = "automation-ai-dashboard-bucket-2025"
 }
 
 # This block defines a new resource: an object (a file) to be placed in our S3 bucket.
